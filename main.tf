@@ -10,10 +10,7 @@ terraform{
 # configure aws provider
 provider "aws" {
   region = "us-east-2"
-  access_key = "PUT-YOUR-ACCESS-KEY"
-  secret_key = "PUT-YOUR-SECRET-KEY"
-
-}
+  }
 
 # Create VPCC
 resource "aws_vpc" "MyLab-vpc" {
